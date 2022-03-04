@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Metaled</string>
+    <string name="Name">Name</string>
+    <string name="Mobile">Mobile no.</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="Save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="number">+91 8279568532</string>
+    <string name="gmail">jhonsmit@gmail.com</string>
+
+
+    <string name="address">London, UK</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="wish">Wishlist</string>
+    <string name="products">Products</string>
+    <string name="categories">Categories</string>
+    <string name="category">Category: </string>
+    <string name="logout">Log Out</string>
+    <string name="indirect">Indirect wall lights</string>
+    <string name="shipping">Shipping Fee</string>
+    <string name="sub">Sub Total</string>
+    <string name="total">Total</string>
+    <string name="payment">Payment</string>
+    <string name="shipping_to">Shipping to</string>
+    <string name="island">658 Apt, Yost Street, Island</string>
+    <string name="us">Seattle, US</string>
+    <string name="new_address">+ Add new address</string>
+    <string name="pay_method">Payment method</string>
+    <string name="num">**** **** **** 6974</string>
+    <string name="ok">Okay</string>
+    <string name="pay_success">Payment Successful !</string>
+    <string name="verify">Verify &amp; Proceed</string>
+    <string name="new_pasrd_diferent">Your new password must be different \nfrom Previousely used password</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget cursus lobortis sit cum porta.</string>
+
+
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign IN</string>
+    <string name="customize">Customize</string>
+    <string name="All">All</string>
+    <string name="Indoor">Indoor</string>
+    <string name="Outdoor">Outdoor</string>
+    <string name="Key">Key</string>
+    <string name="Clothing">Clothing</string>
+    <string name="Done">Done</string>
+    <string name="Send">Send</string>
+    <string name="Products">Products</string>
+    <string name="Next">Next</string>
+    <string name="indoor">Indoor</string>
+    <string name="outdoor">Outdoor</string>
+
+    <string name="text">Inox Brut Vibre (Protection interieur et exteriur)</string>
+    <string name="title_activity_login">Login</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="clothes">Clothes hanger 30cm</string>
+    <string name="distracted">It is a long established fact that a reader will be distracted</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name">Name</string>
+    <string name="mobileno">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="cnfm_password">Confirm Password</string>
+
+    <string name="menu_home">Home</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="AddCard">Add to cart</string>
+    <string name="Description">Description</string>
+    <string name="Size">Size</string>
+    <string name="Materials">Materials</string>
+    <string name="Text">Text</string>
+    <string name="Elements">Elements</string>
+    <string name="hook">Hook</string>
+    <string name="plzname">Please Enter Name</string>
+    <string name="plzemail">Please Enter Email</string>
+    <string name="plzmobile">Please Enter Mobile No.</string>
+    <string name="plzpass">Please Enter Password</string>
+    <string name="No_Internet">No Internet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>

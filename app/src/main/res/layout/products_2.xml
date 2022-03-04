@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/llDetail"
+    android:paddingRight="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_219sdp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_72sdp"
+                android:scaleType="fitXY"
+                android:layout_height="@dimen/_80sdp"
+                android:src="@drawable/matal_cat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="@dimen/_113sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:fontFamily="@font/lato_semibold"
+                    android:text="@string/clothes"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:layout_width="@dimen/_126sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="@string/distracted"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="@dimen/_9sdp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/tvCustom1"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:backgroundTint="@color/black2"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="@string/customize"
+                    android:textSize="@dimen/_8sdp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/reactangle_black2"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

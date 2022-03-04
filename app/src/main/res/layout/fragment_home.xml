@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="10dp">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_height="@dimen/_159sdp"
+                            android:layout_width="match_parent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/showroom" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_40sdp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="@dimen/_224sdp"
+                                    android:layout_height="@dimen/_23sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:fontFamily="@font/lato_bold"
+                                    android:text="NOUVEAU SHOWROOM!"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_13sdp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_1sdp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="@dimen/_215sdp"
+                                        android:layout_height="@dimen/_36sdp"
+                                        android:layout_marginLeft="@dimen/_10sdp"
+                                        android:fontFamily="@font/lato_bold"
+                                        android:text="Ouvert depuis le 1er septembre 2021"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_15sdp" />
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="@dimen/_5sdp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="@dimen/_196sdp"
+                                            android:layout_height="@dimen/_26sdp"
+                                            android:layout_marginLeft="@dimen/_10sdp"
+                                            android:fontFamily="@font/lato_regular"
+                                            android:text="Ouvert depuis le 1er septembre 2021"
+                                            android:textColor="@color/white"
+                                            android:textSize="@dimen/_11sdp" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:text="Best Sellers -"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvBestSeller"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            tools:itemCount="1"
+                            tools:listitem="@layout/best_sellers_row" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:text="Products -"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvproducts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            tools:itemCount="1"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            tools:listitem="@layout/products_2"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_height="@dimen/_159sdp"
+                        android:layout_width="@dimen/_300sdp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/showroom2" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_40sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="@dimen/_96sdp"
+                                android:layout_height="@dimen/_23sdp"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:fontFamily="@font/lato_bold"
+                                android:text="WELCOME"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_13sdp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/_1sdp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="@dimen/_207sdp"
+                                    android:layout_height="@dimen/_18sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:fontFamily="@font/lato_bold"
+                                    android:text="on our new website!"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_15sdp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="@dimen/_202sdp"
+                                        android:layout_height="@dimen/_26sdp"
+                                        android:layout_marginLeft="@dimen/_10sdp"
+                                        android:fontFamily="@font/lato_regular"
+                                        android:text="You will find our online store as well as all our new products."
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/_11sdp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

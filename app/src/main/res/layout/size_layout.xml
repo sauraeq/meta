@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <TextView
+            android:id="@+id/text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/lato_regular"
+            android:text="Size"
+            android:textColor="@color/hex" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/cross_img" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginTop="25dp" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="149dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/metaled_fhb" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/img_polygon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/polygon_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/img_polygon"
+            android:fontFamily="@font/lato_regular"
+            android:text="120 X 60 cm "
+            android:textColor="@color/hex" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/img_polygon_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/polygon_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/img_polygon_2"
+                android:fontFamily="@font/lato_regular"
+                android:text="60 cm (carre)"
+                android:textColor="@color/hex" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/img_polygon_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/polygon_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/img_polygon_3"
+            android:fontFamily="@font/lato_regular"
+            android:text="100 X 200 cm "
+            android:textColor="@color/hex" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/img_polygon_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/polygon_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/img_polygon_4"
+                android:fontFamily="@font/lato_regular"
+                android:text=" 40 X 80 cm"
+                android:textColor="@color/hex" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/img_polygon_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/polygon_2"
+            />
+
+        <ImageView
+            android:id="@+id/img_rectangular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+             android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/img_polygon_5"
+            android:src="@drawable/img_rectagular" />
+        <ImageView
+            android:id="@+id/cross_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginLeft="5dp"
+           android:layout_centerVertical="true"
+
+            android:layout_toEndOf="@+id/img_rectangular"
+            android:src="@drawable/cross_img" />
+        <ImageView
+            android:id="@+id/img_rectangular_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/cross_img2"
+            android:src="@drawable/img_rectagular" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_margin="15dp"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/Done" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Otp.Otp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_190sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:src="@drawable/otp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:fontFamily="@font/lato_medium"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black2"
+            android:text="Verify Your Email"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="@dimen/_247sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:fontFamily="@font/lato_regular"
+            android:textSize="@dimen/_15sdp"
+            android:text="Please Enter The 4  Digit code sent to JohnSmith_01@xyz.com"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/et_pin_1"
+            android:layout_width="@dimen/_38sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@color/black2"
+            android:textIsSelectable="false"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_pin_2"
+            android:layout_width="@dimen/_38sdp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@color/black2"
+            android:textIsSelectable="false"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/et_pin_3"
+            android:layout_width="@dimen/_38sdp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@color/black2"
+            android:textIsSelectable="false"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/et_pin_4"
+            android:layout_width="@dimen/_38sdp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@color/black2"
+            android:textIsSelectable="false"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_recive_code"
+            android:layout_width="@dimen/_242sdp"
+            android:layout_height="@dimen/_21sdp"
+            android:gravity="center"
+            android:fontFamily="@font/lato_regular"
+            android:text="Didn’t Receive the code? Resend Code"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_210sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_56sdp">
+
+            <Button
+                android:id="@+id/btn_verify"
+                android:layout_width="@dimen/_317sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/black2"
+                android:fontFamily="@font/lato_regular"
+                android:text="@string/verify"
+                android:textSize="@dimen/_17sdp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

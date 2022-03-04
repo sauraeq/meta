@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#80000000"
+    android:clickable="true">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="15dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato_medium"
+                    android:text="Size"
+                    android:textColor="@color/hex"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/cross_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/cross_img" />
+
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray3"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/metaled_fhb" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/img_polygon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/polygon_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/img_polygon"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="120 X 60 cm "
+                    android:textColor="@color/hex" />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/img_polygon_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:scaleType="fitXY"
+                        android:src="@drawable/polygon_2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toEndOf="@+id/img_polygon_2"
+                        android:fontFamily="@font/lato_regular"
+                        android:text="60 cm (carre)"
+                        android:textColor="@color/hex" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/img_polygon_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/polygon_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/img_polygon_3"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="100 X 200 cm "
+                    android:textColor="@color/hex" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_polygon_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/polygon_2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toEndOf="@+id/img_polygon_4"
+                        android:fontFamily="@font/lato_regular"
+                        android:text=" 40 X 80 cm"
+                        android:textColor="@color/hex" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/img_polygon_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/polygon_2"
+                    />
+
+                <ImageView
+                    android:id="@+id/img_rectangular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toEndOf="@+id/img_polygon_5"
+                    android:src="@drawable/img_rectagular" />
+                <ImageView
+                    android:id="@+id/cross_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+
+                    android:layout_toEndOf="@+id/img_rectangular"
+                    android:src="@drawable/cross_img" />
+                <ImageView
+                    android:id="@+id/img_rectangular_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toEndOf="@+id/cross_img2"
+                    android:src="@drawable/img_rectagular" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="137dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_gravity="center"
+                android:text="@string/Done"
+                android:background="@drawable/rectangle_black"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
